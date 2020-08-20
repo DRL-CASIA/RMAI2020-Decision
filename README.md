@@ -1,4 +1,4 @@
-# RoboRTS-Decision
+﻿# RoboRTS-Decision
 
 ProjectName and Description
 
@@ -16,7 +16,7 @@ ProjectName and Description
 
 <p align="center">
   <a href="https://github.com/DRL-CASIA/RoboRTS-Decision/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">"完美的"README模板</h3>
