@@ -11,7 +11,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/DRL-CASIA/RoboRTS-Decision/">
+  <a href="https://github.com/DRL-CASIA/Decision/">
     <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Time to start！
     <br />
-    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision"><strong>Wiki</strong></a>
+    <a href="https://github.com/DRL-CASIA/Decision"><strong>Wiki</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision">查看Demo</a>
+    <a href="https://github.com/DRL-CASIA/Decision">查看Demo</a>
     ·
-    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision/issues">报告Bug</a>
+    <a href="https://github.com/DRL-CASIA/Decision/issues">报告Bug</a>
     ·
-    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision/issues">提出新特性</a>
+    <a href="https://github.com/DRL-CASIA/Decision/issues">提出新特性</a>
   </p>
 
 </p>
@@ -78,7 +78,7 @@
 2. Clone the repo
 
 ```sh
-git clone https://github.com/DRL-CASIA/RoboRTS-Decision.git
+git clone https://github.com/DRL-CASIA/Decision.git
 ```
 
 ### 文件目录说明
@@ -145,7 +145,7 @@ filetree
 
 ### 开源协议
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/DRL-CASIA/RoboRTS-Decision/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/DRL-CASIA/Decision/blob/master/LICENSE.txt)
 
 ### 设计模式
 
@@ -160,17 +160,17 @@ filetree
 - [xxxxxxxxxxxxxx](https://connoratherton.com/loaders) -->
 
 <!-- links -->
-[your-project-path]:DRL-CASIA/RoboRTS-Decision
-[contributors-shield]: https://img.shields.io/github/contributors/DRL-CASIA/RoboRTS-Decision.svg?style=flat-square
-[contributors-url]: https://github.com/DRL-CASIA/RoboRTS-Decision/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/DRL-CASIA/RoboRTS-Decision.svg?style=flat-square
-[forks-url]: https://github.com/DRL-CASIA/RoboRTS-Decision/network/members
-[stars-shield]: https://img.shields.io/github/stars/DRL-CASIA/RoboRTS-Decision.svg?style=flat-square
-[stars-url]: https://github.com/DRL-CASIA/RoboRTS-Decision/stargazers
-[issues-shield]: https://img.shields.io/github/issues/DRL-CASIA/RoboRTS-Decision.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/DRL-CASIA/RoboRTS-Decision.svg
-[license-shield]: https://img.shields.io/github/license/DRL-CASIA/RoboRTS-Decision.svg?style=flat-square
-[license-url]: https://github.com/DRL-CASIA/RoboRTS-Decision/blob/master/LICENSE
+[your-project-path]:DRL-CASIA/Decision
+[contributors-shield]: https://img.shields.io/github/contributors/DRL-CASIA/Decision.svg?style=flat-square
+[contributors-url]: https://github.com/DRL-CASIA/Decision/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DRL-CASIA/Decision.svg?style=flat-square
+[forks-url]: https://github.com/DRL-CASIA/Decision/network/members
+[stars-shield]: https://img.shields.io/github/stars/DRL-CASIA/Decision.svg?style=flat-square
+[stars-url]: https://github.com/DRL-CASIA/Decision/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DRL-CASIA/Decision.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/DRL-CASIA/Decision.svg
+[license-shield]: https://img.shields.io/github/license/DRL-CASIA/Decision.svg?style=flat-square
+[license-url]: https://github.com/DRL-CASIA/Decision/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zhentaotang
 
