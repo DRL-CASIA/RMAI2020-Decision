@@ -1,6 +1,6 @@
 ﻿# RoboRTS-Decision
 
-ProjectName and Description
+Module for robot decision.
 
 <!-- PROJECT SHIELDS -->
 
@@ -19,11 +19,11 @@ ProjectName and Description
     <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">中国科学科院自动化研究所--Team Neurons</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    Time to start！
     <br />
-    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/DRL-CASIA/RoboRTS-Decision"><strong>Wiki</strong></a>
     <br />
     <br />
     <a href="https://github.com/DRL-CASIA/RoboRTS-Decision">查看Demo</a>
@@ -35,27 +35,40 @@ ProjectName and Description
 
 </p>
 
+## 相关工作及成果
 
- 本篇README.md面向开发者
- 
+[所内报道：深度强化学习团队提出基于深度强化学习的未知环境自主探索方法](http://www.ia.ac.cn/xwzx/kydt/202007/t20200728_5646953.html)
+
+[公众号报道：团队新作 | 基于深度强化学习的未知环境自主探索方法](https://mp.weixin.qq.com/s/E68P5j2chxgenZOiCd0v6g)
+
+发表文献：
+
+ H. Li, Q. Zhang, and D. Zhao. “ Deep reinforcement learning-based automatic exploration for navigation in unknown environment,” IEEE Transactions on Neural Networks and Learning Systems, vol. 31, no. 6, pp. 2064–2076, 2020.  
+
+
+
+
+
+# 决策模块介绍 
 ## 目录
 
-- [上手指南](#上手指南)
+- [软件功能介绍](#软件功能介绍)
   - [开发前的配置要求](#开发前的配置要求)
   - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
+- [软件效果展示](#软件效果展示)
+- [依赖工具及环境](#依赖工具及环境)
+- [编译及安装方式](#编译及安装方式)
+- [软硬件系统框图](#软硬件系统框图)
+- [原理介绍与理论支持分析](#原理介绍与理论支持分析)
   - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
+- [软件架构与层级图](#软件架构与层级图)
+- [代码规范](#代码规范)
+- [开源协议](#开源协议)
+- [设计模式](#设计模式)
 - [鸣谢](#鸣谢)
 
-### 上手指南
+### 软件功能介绍
 
-请将所有链接中的“DRL-CASIA/RoboRTS-Decision”改为“your_github_name/your_repository”
 
 
 
