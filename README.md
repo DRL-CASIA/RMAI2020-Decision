@@ -1,8 +1,4 @@
-﻿# RoboRTS-Decision
-
-Module for robot decision.
-
-<!-- PROJECT SHIELDS -->
+﻿<!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -49,7 +45,7 @@ Module for robot decision.
 
 
 
-# 决策模块介绍 
+# 决策模块 
 ## 目录
 
 - [软件功能介绍](#软件功能介绍)
@@ -62,7 +58,6 @@ Module for robot decision.
 - [原理介绍与理论支持分析](#原理介绍与理论支持分析)
   - [如何参与开源项目](#如何参与开源项目)
 - [软件架构与层级图](#软件架构与层级图)
-- [代码规范](#代码规范)
 - [开源协议](#开源协议)
 - [设计模式](#设计模式)
 - [鸣谢](#鸣谢)
@@ -113,25 +108,25 @@ filetree
 
 
 
-### 开发的架构 
+### 软件效果展示 
 
-请阅读[ARCHITECTURE.md](https://github.com/DRL-CASIA/RoboRTS-Decision/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
 
-### 部署
+
+### 依赖工具及环境
 
 暂无
 
-### 使用到的框架
+### 编译及安装方式
 
 - [xxxxxxx](https://getbootstrap.com)
 - [xxxxxxx](https://jquery.com)
 - [xxxxxxx](https://laravel.com)
 
-### 贡献者
+### 软硬件系统框图
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
 
-#### 如何参与开源项目
+
+#### 原理介绍与理论支持分析
 
 贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
 
@@ -144,21 +139,15 @@ filetree
 
 
 
-### 版本控制
+### 软件架构与层级图
 
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
-### 作者
-
-xxx@xxxx
-
-知乎:xxxx  &ensp; qq:xxxxxx    
-
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
-
-### 版权说明
+### 开源协议
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/DRL-CASIA/RoboRTS-Decision/blob/master/LICENSE.txt)
+
+### 设计模式
 
 ### 鸣谢
 
