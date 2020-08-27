@@ -78,7 +78,7 @@
 ### **仿真平台场景**
 <div align="center">
 <center class="half">
-    <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
+    <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
     <img src="images/star_war.gif" height="180" width="300"/> &emsp;<img src="images/pygame.gif" height="180" width="300"/>
 </center>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -163,20 +163,20 @@ sudo make install
 # 复制本项目到本地
 git clone git@github.com:DRL-CASIA/Decision.git
 
-# 进入仓库文件夹
-cd Decision/
+# 进入仓库文件夹中的ros工作空间
+cd Decision/RoboRTS_decision/
 
-# 将roborts_decision包拷贝至Roborts原代码目录
-cp -r roborts_decision/. robo_ws/src
+# 更改神经网络参数导入路径
+sudo gedit src/roborts_decision/example_behavior/nn_behavior.h
 
-# 进入Roborts主目录
-cd robo_ws
+#将torch::jit::load中的文件路径替换为本地weights/agent_model.pt路径
 
 # 完全编译
 catkin_make
 
-# 也可对package进行单独编译
+# 之后也可对package进行单独编译
 catkin_make --pkg roborts_decision -j8
+
 
 # 如果遇到protobuf和pytorch相关问题，需要到pytorch官网或其Github下载并解压libtorch包(v1.1.0)，将libtorch中的文件放在pytorch文件夹中即可。
 unzip -cftu libtorch.zip -d libtorch
