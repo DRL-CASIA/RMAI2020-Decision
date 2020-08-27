@@ -72,18 +72,37 @@
 &emsp;&emsp;在感知系统完成的基础上，决策组的工作重点集中在决策层系统部署以及仿真训练环境搭建。针对RoboMaster AI Challenge中典型的2v2自主机器人对战方式，我们将2v2对战视为零和博弈问题，并使用**多智能体深度强化学习**和**行为决策树**两种方式设计决策器。同时，为了结合规则型决策和学习型决策两种方式的优劣，并将大量的环境交互数据网络优化的结果运用于实车决策，我们构造了三种仿真环境实现对算法的验证开发。分别是用于模型验证的**Gazebo环境**，策略训练的**星际环境**以及端到端控制训练的**PyGame环境**。
 
 ---
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=-fKUyT14G-8"
+     target="_blank">
+    <img src="images/pygame.gif"
+         alt="DeepMind open source PySC2 toolset for Starcraft II"
+         width="240" height="180" border="10" />
+  </a>
+  <a href="https://www.youtube.com/watch?v=6L448yg0Sm0"
+     target="_blank">
+    <img src="images/gazebo.gif"
+         alt="StarCraft II 'mini games' for AI research"
+         width="240" height="180" border="10" />
+  </a>
+ 
+</div>
+
+
+
 ## **效果展示** 
 ### **仿真平台场景**
+<div align="center">
 <center class="half">
     <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
-    <img src="images/star_war.gif" height="180" width="300"/> <img src="images/pygame.gif" height="180" width="300"/>
+    <img src="images/star_war.gif" height="180" width="300"/> &emsp;<img src="images/pygame.gif" height="180" width="300"/>
 </center>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <h3 align="center">Gazebo平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Stage平台仿真</h3> 
 <center class="half">
     <img src="images/gazebo.gif" height="180" width="300"/> &emsp;<img src="images/stage.gif" height="180" width="300"/>
 </center>
-
+</div>
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
