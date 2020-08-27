@@ -78,11 +78,11 @@
 ### **仿真平台场景**
 <div align="center">
 <center class="half">
-    <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
+    <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
     <img src="images/star_war.gif" height="180" width="300"/> &emsp;<img src="images/pygame.gif" height="180" width="300"/>
 </center>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-<h3 align="center">Gazebo平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Stage平台仿真</h3> 
+<h3 align="center">Gazebo平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Stage平台仿真</h3> 
 <center class="half">
     <img src="images/gazebo.gif" height="180" width="300"/> &emsp;<img src="images/stage.gif" height="180" width="300"/>
 </center>
@@ -93,12 +93,12 @@
 ### **实车场景**
 <div align="center">
 <center class="half">
-    <h3 align="center">双车巡航场景 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 追踪敌车场景</h3> 
+    <h3 align="center">双车巡航场景 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 追踪敌车场景</h3> 
     <img src="images/patrol.gif" height="180" width="300"/> &emsp;<img src="images/tracking.gif" height="180" width="300"/>
 </center>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
-<h3 align="center">1vs1对抗场景 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1vs2对抗场景</h3> 
+<h3 align="center">1vs1对抗场景 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1vs2对抗场景</h3> 
 <center class="half">
     <img src="images/1v1.gif" height="180" width="300"/> &emsp;<img src="images/1v2.gif" height="180" width="300"/>
 </center>
@@ -169,7 +169,7 @@ cd Decision/RoboRTS_decision/
 # 更改神经网络参数导入路径
 sudo gedit src/roborts_decision/example_behavior/nn_behavior.h
 
-#将torch::jit::load中的文件路径替换为本地weights/agent_model.pt路径
+# 将torch::jit::load中的文件路径替换为本地weights/agent_model.pt路径
 
 # 完全编译
 catkin_make
