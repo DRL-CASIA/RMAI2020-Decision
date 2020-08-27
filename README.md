@@ -76,7 +76,7 @@
 ### **仿真平台场景**
 <center class="half">
     <h3 align="center">星际平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pygame平台仿真</h3> 
-    <img src="images/star_war.gif" height="180" width="250"/> &emsp;<img src="images/pygame.gif" height="180" width="250"/>
+    <img src="images/star_war.gif" height="180" width="300"/> <img src="images/pygame.gif" height="180" width="300"/>
 </center>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <h3 align="center">Gazebo平台仿真 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Stage平台仿真</h3> 
