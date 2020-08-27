@@ -256,11 +256,12 @@ roborts_decision
 ### **硬件部分**
 
 &emsp;&emsp;步兵机器人的硬件系统除了自带的底盘和云盘系统以外，为了实现机器人的定位，检测和自主移动等功能，需要在机器人主题上加装各种外围传感器。在传感器选型时需要注意传感器的尺寸，重量，合适的安装位置，开发难度等。在当前版本的机器人系统中，我们配备了工业相机，激光雷达，后置USB相机，为步兵机器人提供合理有效的视野范围。传感器选型及硬件部署如下：
-
+<div align="center">
 <center class="half">
  <h3 align="center">传感器型号 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 传感器部署图</h3> 
     <img src="images/hardware-type.png" height="180" width="250"/> &emsp;&emsp;<img src="images/hardware-architecture.png" height="180" width="250"/>
 </center>
+</div> 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
 <!-- <p align="center">
