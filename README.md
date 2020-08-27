@@ -197,6 +197,14 @@ rosrun roborts_decision decision_node
 roslaunch roborts_bringup multi_stage.launch
 
 ```
+<p align="center"> 
+
+  <a>
+    <img src="images/nn_decision.gif" alt="2v2" width="600" height="300">
+  </a>
+  <h3 align="center">多车仿真运行效果</h3> 
+</p>
+
 ### **文件目录说明**
 
 

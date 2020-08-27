@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: roborts_decision
+Description: Description of roborts_decision
+Version: 1.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

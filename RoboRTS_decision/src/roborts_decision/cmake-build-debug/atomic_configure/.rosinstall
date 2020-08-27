@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/drl/RM/src/roborts_decision/cmake-build-debug/devel/setup.sh

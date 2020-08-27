@@ -1,0 +1,8 @@
+prefix=/home/drl/RM/src/roborts_decision/cmake-build-debug/devel
+
+Name: roborts_decision
+Description: Description of roborts_decision
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/drl/RM/src/roborts_decision/cmake-build-debug/devel/lib 
+Requires: 
