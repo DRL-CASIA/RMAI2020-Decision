@@ -115,7 +115,7 @@
 
 ## **配置及环境要求**
 ### **操作系统配置**
-所有RM机器人均配备NVIDIA JETSON XAVIER嵌入式高性能计算单元作为车载电脑。
+所有步兵机器人均配备NVIDIA JETSON XAVIER嵌入式高性能计算单元作为车载电脑。
 - CPU框架：ARMv8
 - GPU计算能力：32TFLOPS
 - 操作系统：JETPACK 4.2.2 (ARM框架下Ubuntu18.04以及GPU所需的软件包)
